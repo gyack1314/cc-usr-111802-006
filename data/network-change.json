@@ -1,0 +1,516 @@
+{
+  "known_at": [
+    "2026-02-01T00:00:00+00:00",
+    "2026-09-01T00:00:00+00:00"
+  ],
+  "documents": [
+    {
+      "source": "卫星机构",
+      "document_id": "observation-satellite",
+      "revision": "r1",
+      "received_at": "2026-01-10T00:00:00+00:00",
+      "records": [
+        {
+          "kind": "observation",
+          "id": "obs-2019",
+          "revision": "r1",
+          "valid_from": "2019-01-01",
+          "payload": {
+            "metric": "sea_level",
+            "region": "ocean-A",
+            "unit": "mm",
+            "period": "2019",
+            "value": 10.0,
+            "product": {
+              "name": "SSAL",
+              "version": "v3p0"
+            },
+            "network": "沿岸网-甲",
+            "stations": [
+              "S1",
+              "S2",
+              "S3"
+            ],
+            "station_links": {},
+            "datum": "D1990",
+            "quality": {
+              "grade": "A",
+              "flags": []
+            }
+          }
+        },
+        {
+          "kind": "observation",
+          "id": "obs-2020",
+          "revision": "r1",
+          "valid_from": "2020-01-01",
+          "payload": {
+            "metric": "sea_level",
+            "region": "ocean-A",
+            "unit": "mm",
+            "period": "2020",
+            "value": 11.0,
+            "product": {
+              "name": "SSAL",
+              "version": "v3p0"
+            },
+            "network": "沿岸网-甲",
+            "stations": [
+              "S1",
+              "S2",
+              "S3"
+            ],
+            "station_links": {},
+            "datum": "D1990",
+            "quality": {
+              "grade": "A",
+              "flags": []
+            }
+          }
+        },
+        {
+          "kind": "observation",
+          "id": "obs-2021",
+          "revision": "r1",
+          "valid_from": "2021-01-01",
+          "payload": {
+            "metric": "sea_level",
+            "region": "ocean-A",
+            "unit": "mm",
+            "period": "2021",
+            "value": 12.0,
+            "product": {
+              "name": "SSAL",
+              "version": "v3p0"
+            },
+            "network": "沿岸网-甲",
+            "stations": [
+              "S1",
+              "S2",
+              "S3"
+            ],
+            "station_links": {},
+            "datum": "D1990",
+            "quality": {
+              "grade": "A",
+              "flags": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source": "验潮网络中心",
+      "document_id": "observation-network",
+      "revision": "r1",
+      "received_at": "2026-01-12T00:00:00+00:00",
+      "records": [
+        {
+          "kind": "observation",
+          "id": "obs-2022",
+          "revision": "r1",
+          "valid_from": "2022-01-01",
+          "payload": {
+            "metric": "sea_level",
+            "region": "ocean-A",
+            "unit": "mm",
+            "period": "2022",
+            "value": 18.0,
+            "product": {
+              "name": "验潮整编",
+              "version": "v1"
+            },
+            "network": "沿岸网-乙",
+            "stations": [
+              "S3",
+              "S4",
+              "S5"
+            ],
+            "station_links": {},
+            "datum": "D2020",
+            "quality": {
+              "grade": "A",
+              "flags": []
+            }
+          }
+        },
+        {
+          "kind": "observation",
+          "id": "obs-2023",
+          "revision": "r1",
+          "valid_from": "2023-01-01",
+          "payload": {
+            "metric": "sea_level",
+            "region": "ocean-A",
+            "unit": "mm",
+            "period": "2023",
+            "value": 19.5,
+            "product": {
+              "name": "验潮整编",
+              "version": "v1"
+            },
+            "network": "沿岸网-乙",
+            "stations": [
+              "S3",
+              "S4",
+              "S5"
+            ],
+            "station_links": {},
+            "datum": "D2020",
+            "quality": {
+              "grade": "A",
+              "flags": []
+            }
+          }
+        },
+        {
+          "kind": "observation",
+          "id": "obs-2024",
+          "revision": "r1",
+          "valid_from": "2024-01-01",
+          "payload": {
+            "metric": "sea_level",
+            "region": "ocean-A",
+            "unit": "mm",
+            "period": "2024",
+            "value": 21.0,
+            "product": {
+              "name": "验潮整编",
+              "version": "v1"
+            },
+            "network": "沿岸网-乙",
+            "stations": [
+              "S3",
+              "S5"
+            ],
+            "station_links": {},
+            "datum": "D2020",
+            "quality": {
+              "grade": "C",
+              "flags": [
+                "gap_interp"
+              ]
+            }
+          }
+        },
+        {
+          "kind": "observation",
+          "id": "obs-2025",
+          "revision": "r1",
+          "valid_from": "2025-01-01",
+          "payload": {
+            "metric": "sea_level",
+            "region": "ocean-A",
+            "unit": "mm",
+            "period": "2025",
+            "value": 22.0,
+            "product": {
+              "name": "验潮整编",
+              "version": "v1"
+            },
+            "network": "沿岸网-乙",
+            "stations": [
+              "S3",
+              "S4",
+              "S5"
+            ],
+            "station_links": {},
+            "datum": "D2020",
+            "quality": {
+              "grade": "A",
+              "flags": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source": "参照机构",
+      "document_id": "reference-sea-level",
+      "revision": "r1",
+      "received_at": "2026-01-08T00:00:00+00:00",
+      "records": [
+        {
+          "kind": "reference",
+          "id": "ref-1",
+          "revision": "r1",
+          "valid_from": "2019-01-01",
+          "payload": {
+            "metric": "sea_level",
+            "region": "ocean-A",
+            "unit": "mm",
+            "value": 60.0
+          }
+        },
+        {
+          "kind": "reference",
+          "id": "ref-2",
+          "revision": "r1",
+          "valid_from": "2022-01-01",
+          "payload": {
+            "metric": "sea_level",
+            "region": "ocean-B",
+            "unit": "mm",
+            "value": 40.0
+          }
+        }
+      ]
+    },
+    {
+      "source": "业务部门",
+      "document_id": "rule-sea-level",
+      "revision": "r1",
+      "received_at": "2026-01-06T00:00:00+00:00",
+      "records": [
+        {
+          "kind": "rule",
+          "id": "rule-1",
+          "revision": "r1",
+          "valid_from": "2019-01-01",
+          "payload": {
+            "metric": "sea_level",
+            "region": "ocean-A",
+            "unit": "mm",
+            "threshold": 12.0,
+            "direction": "above",
+            "action": "引用创纪录判断"
+          }
+        }
+      ]
+    },
+    {
+      "source": "卫星机构",
+      "document_id": "observation-satellite",
+      "revision": "r2",
+      "received_at": "2026-08-20T00:00:00+00:00",
+      "records": [
+        {
+          "kind": "observation",
+          "id": "obs-2019",
+          "revision": "r2",
+          "valid_from": "2019-01-01",
+          "payload": {
+            "metric": "sea_level",
+            "region": "ocean-A",
+            "unit": "mm",
+            "period": "2019",
+            "value": 10.5,
+            "product": {
+              "name": "SSAL",
+              "version": "v4p1"
+            },
+            "network": "沿岸网-统一",
+            "stations": [
+              "S1",
+              "S2",
+              "S3"
+            ],
+            "station_links": {},
+            "datum": "D2020",
+            "quality": {
+              "grade": "A",
+              "flags": []
+            }
+          }
+        },
+        {
+          "kind": "observation",
+          "id": "obs-2020",
+          "revision": "r2",
+          "valid_from": "2020-01-01",
+          "payload": {
+            "metric": "sea_level",
+            "region": "ocean-A",
+            "unit": "mm",
+            "period": "2020",
+            "value": 12.0,
+            "product": {
+              "name": "SSAL",
+              "version": "v4p1"
+            },
+            "network": "沿岸网-统一",
+            "stations": [
+              "S1",
+              "S2",
+              "S3"
+            ],
+            "station_links": {},
+            "datum": "D2020",
+            "quality": {
+              "grade": "A",
+              "flags": []
+            }
+          }
+        },
+        {
+          "kind": "observation",
+          "id": "obs-2021",
+          "revision": "r2",
+          "valid_from": "2021-01-01",
+          "payload": {
+            "metric": "sea_level",
+            "region": "ocean-A",
+            "unit": "mm",
+            "period": "2021",
+            "value": 13.5,
+            "product": {
+              "name": "SSAL",
+              "version": "v4p1"
+            },
+            "network": "沿岸网-统一",
+            "stations": [
+              "S1",
+              "S2",
+              "S3"
+            ],
+            "station_links": {},
+            "datum": "D2020",
+            "quality": {
+              "grade": "A",
+              "flags": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source": "验潮网络中心",
+      "document_id": "observation-network",
+      "revision": "r2",
+      "received_at": "2026-08-22T00:00:00+00:00",
+      "records": [
+        {
+          "kind": "observation",
+          "id": "obs-2022",
+          "revision": "r2",
+          "valid_from": "2022-01-01",
+          "payload": {
+            "metric": "sea_level",
+            "region": "ocean-A",
+            "unit": "mm",
+            "period": "2022",
+            "value": 18.0,
+            "product": {
+              "name": "SSAL",
+              "version": "v4p1"
+            },
+            "network": "沿岸网-统一",
+            "stations": [
+              "S1",
+              "S3",
+              "S4"
+            ],
+            "station_links": {
+              "S4": "S2"
+            },
+            "datum": "D2020",
+            "quality": {
+              "grade": "A",
+              "flags": []
+            }
+          }
+        },
+        {
+          "kind": "observation",
+          "id": "obs-2023",
+          "revision": "r2",
+          "valid_from": "2023-01-01",
+          "payload": {
+            "metric": "sea_level",
+            "region": "ocean-A",
+            "unit": "mm",
+            "period": "2023",
+            "value": 19.5,
+            "product": {
+              "name": "SSAL",
+              "version": "v4p1"
+            },
+            "network": "沿岸网-统一",
+            "stations": [
+              "S1",
+              "S3",
+              "S4"
+            ],
+            "station_links": {},
+            "datum": "D2020",
+            "quality": {
+              "grade": "A",
+              "flags": []
+            }
+          }
+        },
+        {
+          "kind": "observation",
+          "id": "obs-2025",
+          "revision": "r2",
+          "valid_from": "2025-01-01",
+          "payload": {
+            "metric": "sea_level",
+            "region": "ocean-A",
+            "unit": "mm",
+            "period": "2025",
+            "value": 24.8,
+            "product": {
+              "name": "验潮整编",
+              "version": "v1"
+            },
+            "network": "沿岸网-乙",
+            "stations": [
+              "S3",
+              "S4",
+              "S5"
+            ],
+            "station_links": {},
+            "datum": "D2020",
+            "quality": {
+              "grade": "A",
+              "flags": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source": "参照机构",
+      "document_id": "reference-sea-level",
+      "revision": "r2",
+      "received_at": "2026-08-25T00:00:00+00:00",
+      "records": [
+        {
+          "kind": "reference",
+          "id": "ref-1",
+          "revision": "r2",
+          "valid_from": "2019-01-01",
+          "payload": {
+            "metric": "sea_level",
+            "region": "ocean-A",
+            "unit": "mm",
+            "value": 63.0
+          }
+        }
+      ]
+    },
+    {
+      "source": "业务部门",
+      "document_id": "rule-sea-level",
+      "revision": "r2",
+      "received_at": "2026-08-26T00:00:00+00:00",
+      "records": [
+        {
+          "kind": "rule",
+          "id": "rule-1",
+          "revision": "r2",
+          "valid_from": "2019-01-01",
+          "payload": {
+            "metric": "sea_level",
+            "region": "ocean-A",
+            "unit": "mm",
+            "threshold": 14.0,
+            "direction": "above",
+            "action": "引用创纪录判断"
+          }
+        }
+      ]
+    }
+  ]
+}
